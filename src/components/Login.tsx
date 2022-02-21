@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { useAppDispatch } from "../store/hooks";
 import { setToken } from "../store/tokenSlice";
 import { useNavigate } from "react-router-dom";
@@ -14,13 +14,13 @@ const Login = () => {
     password: "",
     error: "",
   });
-  const handleChange = (e) => {
+  const handleChange = useCallback((e) => {
     const { id, value } = e.target;
     setState((prevState) => ({
       ...prevState,
       [id]: value,
     }));
-  };
+  }, []);
 
   async function login() {
     const response = await fetch("/api/auth/login", {

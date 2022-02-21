@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -12,13 +12,13 @@ const Signup = () => {
     confirmPassword: "",
     error: "",
   });
-  const handleChange = (e) => {
+  const handleChange = useCallback((e) => {
     const { id, value } = e.target;
     setState((prevState) => ({
       ...prevState,
       [id]: value,
     }));
-  };
+  },[]);
   const handleClick = (e) => {
     e.preventDefault();
     if (state.password === state.confirmPassword) {
