@@ -1,0 +1,24 @@
+POST http://localhost:4000/api/auth/signup
+Content-Type: application/json
+
+{
+    "username": "Raul",
+    "password": "2345"
+}
+###
+GET  http://localhost:4000/api/test/user
+
+###
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF1bCIsImlhdCI6MTY0NDMyNTI3OX0.w8pKkjNw81tnom2DAbnTgm-Eq7FeH6YWHh_4pedVZi4"
+}
+###
+DELETE http://localhost:4000/logout
+Content-Type: application/json
+
+{
+    "token": ""
+}

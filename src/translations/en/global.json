@@ -1,0 +1,39 @@
+{
+  "header": {
+    "home": "Home",
+    "authors": "Authors",
+    "help": "Help",
+    "login": "Login",
+    "signup": "Sign-Up"
+  },
+  "list": {
+    "loading": "Loading data from server...",
+    "more": "See more"
+  },
+  "login": {
+    "username": "Username",
+    "enter-user": "Enter Username",
+    "password": "Password",
+    "enter-pass": "Enter Password",
+    "login": "Login",
+    "not-account": "Haven't an account? Sign up",
+    "here": "here"
+  },
+  "signup": {
+    "username": "Username",
+    "enter-user": "Enter Username",
+    "password": "Password",
+    "enter-pass": "Enter Password",
+    "confirm-password": "Password",
+    "enter-conf-pass": "Enter Password",
+    "signup": "Sign-Up"
+  },
+  "poemInfo": {
+    "more-info": "More information",
+    "here": "here"
+  },
+  "home":{
+    "title": "Welcome to our Poemist App",
+    "content": "Here you can see a list of famous poems around the world, and look for some details of them, but first, you have to register in the app if you want to use it."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "header": {
+    "home": "Inicio",
+    "authors": "Autores",
+    "help": "Ayuda",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse"
+  },
+  "list": {
+    "loading": "Cargando datos del servidor...",
+    "more": "Ver más"
+  },
+  "login": {
+    "username": "Nombre de Usuario",
+    "enter-user": "Introduce el nombre de usuario",
+    "password": "Contraseña",
+    "enter-pass": "Introduce la contraseña",
+    "login": "Iniciar Sesión",
+    "not-account": "¿No tienes cuenta? Registrate",
+    "here": "aquí"
+  },
+  "signup": {
+    "username": "Nombre de Usuario",
+    "enter-user": "Introduce el nombre de usuario",
+    "password": "Contraseña",
+    "enter-pass": "Introduce la contraseña",
+    "confirm-password": "Confirma la contraseña",
+    "enter-conf-pass": "Vuelve a escribir la contraseña",
+    "signup": "Registrate"
+  },
+  "poemInfo": {
+    "more-info": "Más información",
+    "here": "aquí"
+  },
+  "home":{
+    "title": "Bienvenido a nuestra App de Poemas",
+    "content": "Aquí podrás ver una lista de poemas muy famosos por todo el mundo, y si quieres, puedes comprobar más detalles de los mismos, pero antes necesitas registrarte."
+  }
+}

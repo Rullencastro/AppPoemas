@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.tsx", "src/App.tsx"],
+  "exclude": ["node_modules"],
+}
